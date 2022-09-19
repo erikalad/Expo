@@ -1,7 +1,8 @@
 .logo{
     width: 10rem;
+    padding:0 !important;
 }
 
-.navbar{
-    height: auto;
+#nav{
+    padding:0 !important;
 }

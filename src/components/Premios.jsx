@@ -9,10 +9,10 @@ export default function Premios(){
         <div className="container" id="contenedor">
         <h1 className="col text-center" id="premios">PREMIOS</h1>
         <hr />
-        <div className="row">
+        <div className="row justify-content-between">
         
-            <div className="col-md-4">
-            <div className="card">
+            <div className="col-md-4 mt-5">
+            <div className="card ">
             <img src={img} className="card-img-top premio" alt="charlotte" />
              <div className="card-body">
              <h5 className="card-title">PRIMER PREMIO</h5>
@@ -23,8 +23,8 @@ export default function Premios(){
             </div>
 
 
-            <div className="col-md-4">
-            <div className="card">
+            <div className="col-md-4 mt-5">
+            <div className="card ">
             <img src={entrada} className="card-img-top premio" alt="charlotte" />
              <div className="card-body">
              <h5 className="card-title">SEGUNDO PREMIO</h5>
@@ -35,8 +35,8 @@ export default function Premios(){
             </div>
 
 
-            <div className="col-md-4">
-            <div className="card">
+            <div className="col-md-4 mt-5">
+            <div className="card ">
             <img src={expo} className="card-img-top premio" alt="charlotte" />
              <div className="card-body">
              <h5 className="card-title">TERCER PREMIO</h5>
