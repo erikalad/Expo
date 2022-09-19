@@ -54,6 +54,9 @@ export default function Info(){
     </div>
   </div>
 </div>
+<div className="boton">
+<button type="button" className="btn btn-outline-dark"><a href="https://forms.gle/iGjvEtfzAHs6R1zPA">Inscribite al sorteo</a></button>
+</div>
         </section>
     )
 }
