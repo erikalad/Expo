@@ -1,6 +1,6 @@
 #carrousel-section .carousel-inner img{
     
-    max-height: 100vh;
+    max-height: 80vh;
     object-fit: cover;
     filter: grayscale(20%);
 }

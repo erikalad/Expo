@@ -11,16 +11,16 @@ export default function Carrousel() {
         <section id="carrousel-section">
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="4000">
+    <div className="carousel-item active" data-bs-interval="3000">
       <img src={img1} className="d-block w-100" alt="1" />
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" data-bs-interval="3000">
       <img src={img2} className="d-block w-100" alt="2"/>
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" data-bs-interval="3000">
       <img src={img3} className="d-block w-100" alt="3"/>
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" data-bs-interval="3000">
       <img src={img4} className="d-block w-100" alt="4"/>
     </div>
   </div>
