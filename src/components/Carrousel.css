@@ -20,3 +20,9 @@
 #carousel .overlay .row {
     height: 100%;
 }
+
+@media (max-width: 800px) {
+    #carrousel-section .carousel-inner img{
+        height: 30vh;
+    }
+  }
