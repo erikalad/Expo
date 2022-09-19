@@ -1,0 +1,10 @@
+.logo{
+    width: 50%;
+}
+
+#navbarScroll{
+    display: flex;
+    justify-content: flex-end !important;
+    flex-grow: 0;
+    margin-right: 3rem;
+}
