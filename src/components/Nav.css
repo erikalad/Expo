@@ -1,10 +1,7 @@
 .logo{
-    width: 50%;
+    width: 10rem;
 }
 
-#navbarScroll{
-    display: flex;
-    justify-content: flex-end !important;
-    flex-grow: 0;
-    margin-right: 3rem;
+.navbar{
+    height: auto;
 }

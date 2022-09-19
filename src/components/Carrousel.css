@@ -1,5 +1,5 @@
 #carrousel-section .carousel-inner img{
-    margin-top: 2rem;
+    
     max-height: 100vh;
     object-fit: cover;
     filter: grayscale(20%);

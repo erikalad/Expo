@@ -11,13 +11,13 @@ export default function Info(){
             <div className="row">
 
 
-                <div className="col pl-0 pr-0">
+                <div className="col-md-6 col-sm-12 pl-0 pr-0 ">
                 <img  src={info} alt="charlotte" id="charlotte"/>
                  
                 </div>
 
 
-                <div className="col">
+                <div className="col-md-6 col-sm-12">
                 <h3 className="col" id="premios" ><strong>Charlotte de Witte</strong></h3>
                 <div className="col">
                 <p>
