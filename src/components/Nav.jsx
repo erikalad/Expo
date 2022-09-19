@@ -18,16 +18,16 @@ function Nav(){
             <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                 <li className="nav-item">
-                <a href="#Inicio" aria-current="page" className='nav-link active' >Home</a>
+                <a href="/" aria-current="page" className='nav-link active' >Home</a>
                 </li>
                 <li>
-                <a href="#sobre-mi" aria-current="page" className='nav-link active'>Información</a>
+                <a href="#información" aria-current="page" className='nav-link active'>Información</a>
                 </li>
                 <li>
-                <a href="#skills" aria-current="page" className='nav-link active' >Premios</a>
+                <a href="#premios" aria-current="page" className='nav-link active' >Premios</a>
                 </li>
                 <li>
-                <a href="#proyectos" aria-current="page" className='nav-link active' >Entradas</a>
+                <a href="#entradas" aria-current="page" className='nav-link active' >Entradas</a>
                 </li>
                 </ul>
              </div>

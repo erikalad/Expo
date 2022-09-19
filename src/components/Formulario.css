@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color:black
+}
+
+a:hover{
+    color:white
+}
+
+.btn{
+margin-left: 60rem;
+}
