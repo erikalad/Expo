@@ -18,7 +18,7 @@ function App() {
       
       <Info />
       <Formulario/>
-      <Sorteo />
+  
       <Footer />
 
      
