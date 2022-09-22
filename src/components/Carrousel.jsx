@@ -2,8 +2,7 @@ import React from 'react';
 import './Carrousel.css';
 import img1 from './../assest/img-1.jpeg'
 import img2 from './../assest/img-2.jpeg'
-import img3 from './../assest/img-3.jpeg'
-import img4 from './../assest/img-4.jpg'
+import img4 from './../assest/quba.png'
 
 
 export default function Carrousel() {
@@ -16,9 +15,6 @@ export default function Carrousel() {
     </div>
     <div className="carousel-item" data-bs-interval="3000">
       <img src={img2} className="d-block w-100" alt="2"/>
-    </div>
-    <div className="carousel-item" data-bs-interval="3000">
-      <img src={img3} className="d-block w-100" alt="3"/>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
       <img src={img4} className="d-block w-100" alt="4"/>
