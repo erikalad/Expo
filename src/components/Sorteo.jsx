@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Ganador from './Ganador.jsx'
 import './Sorteo.css'
 import nrorandom from './js/Sorteo.js'
+import Swal from 'sweetalert2'
 
 
 export default function Sorteo(){
@@ -9,26 +9,58 @@ export default function Sorteo(){
     const [ primero, setPrimero] = useState("")
     const [ segundo, setSegundo] = useState("")
     const [ tercero, setTercero] = useState("")
+    const [ sorteos, setSorteo] = useState(false)
 
+    function handleclick1(){
+        
+        Swal.fire({
+            title: 'FELICIDADES!',
+            text: `El ganador es ${primero.nombre} DNI:${primero.dni}`,
+            icon: 'success',
+            confirmButtonText: 'OK'
+          })
+       
+    }
+
+    function handleclick2(){
+        
+        Swal.fire({
+            title: 'FELICIDADES!',
+            text: `El ganador es ${segundo.nombre} DNI:${segundo.dni}`,
+            icon: 'success',
+            confirmButtonText: 'OK'
+          })
+       
+    }
+
+    function handleclick3(){
+        
+        Swal.fire({
+            title: 'FELICIDADES!',
+            text: `El ganador es ${tercero.nombre} DNI:${tercero.dni}`,
+            icon: 'success',
+            confirmButtonText: 'OK'
+          })
+       
+    }
+
+    function sorteo(){
+        setSorteo(true)
+        setPrimero(nrorandom())
+        setSegundo(nrorandom())
+        setTercero(nrorandom())
+    }
    
 
     return(
+
         <div className='container'>
-            <div className="card sorteo">
-            <button onClick={() => setPrimero(nrorandom())}>1ER PREMIO</button>
-            {primero !== "" ? <Ganador /> : null}
-            {/*EL COMPONENTE GANADOR QUIERO QUE SEA UNA PANTALLA QUE SALGA EN MODO DE ALERTA CON BOOTSTRAP*/}
-            <p>NOMBRE:{primero.nombre} ULT DNI:{primero.dni}</p>
-            </div>
-            <div className="card sorteo">
-            <button onClick={() => setSegundo(nrorandom())}>2DO PREMIO</button>
-            {segundo !== "" ? <Ganador /> : null}
-            <p>NOMBRE:{segundo.nombre} ULT DNI:{segundo.dni}</p>
-            </div>
-            <div className="card sorteo">
-            <button onClick={() => setTercero(nrorandom())}>3ER PREMIO</button>
-            {tercero !== "" ? <Ganador /> : null}
-            <p>NOMBRE:{tercero.nombre} ULT DNI:{tercero.dni}</p>
+            <div>
+            <div><button className="btn btn-success sortear" onClick={sorteo} id={sorteos === true ? "active" : null}>SORTEAR</button></div>
+            
+            <button className="btn btn-success" onClick={handleclick1} >1ER PREMIO</button>
+            <button className="btn btn-success" onClick={handleclick2} >2DO PREMIO</button>
+            <button className="btn btn-success" onClick={handleclick3} >3ER PREMIO</button>
             </div>
         </div>
     )

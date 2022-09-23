@@ -7,7 +7,7 @@ import img5 from './../assest/cocinero4.jpeg'
 
 export default function Presentación(){
     return(
-        <div className="container fluid" id="joel">
+        <div className="container fluid" id="información">
             <h1 className="col text-center" id="andar">ANDAR Productions</h1>
             <hr />
         

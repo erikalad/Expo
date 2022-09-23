@@ -6,7 +6,7 @@ import expo from './../assest/expo-cannabis.jpeg'
 
 export default function Info(){
     return(
-        <section className="place-holder" id="información">
+        <section className="place-holder">
             <div className="card mb-3 info">
   <div className="row g-0">
     <div className="col-md-6">
@@ -54,9 +54,7 @@ export default function Info(){
     </div>
   </div>
 </div>
-<div className="boton">
-<button type="button" className="btn btn-outline-dark"><a href="https://forms.gle/iGjvEtfzAHs6R1zPA">Inscribite al sorteo</a></button>
-</div>
+
         </section>
     )
 }

@@ -3,3 +3,32 @@
     width: 15rem;
     margin: 2rem;
 }
+
+.btn{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#active{
+    background-color: black !important;
+    color: white !important;
+    border: none;
+}
+
+#active1{
+    background-color: black !important;
+    color: white !important;
+    border: none;
+}
+
+#active2{
+    background-color: black !important;
+    color: white !important;
+    border: none;
+}
+
+#active3{
+    background-color: black !important;
+    color: white !important;
+    border: none;
+}
