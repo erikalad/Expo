@@ -1,0 +1,71 @@
+.contador{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.082);
+}
+
+.numero{
+    margin-top: 2rem;
+    font-size: 400%;
+    width: 10rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+.faltan{
+    padding-top: 1.5rem;
+    font-size: 3rem;
+}
+
+.con{
+    margin-bottom: 1.5rem;
+}
+
+
+
+#dias{
+    padding-right: 1.5rem;
+}
+#horas{
+    padding-right: 2rem !important;
+}
+#minutos{
+    padding-right: 2rem !important;
+}
+#segundos{
+    padding-right: 2rem !important;
+}
+
+@media (max-width: 785px) {
+    .numero {
+        line-height: 30px;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 80%;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 3rem;
+        padding: 0.5rem;
+        
+    }
+    .card-body{
+        font-size: 10px;
+        text-align: start;
+        padding-left: 00.5rem;
+       
+    }
+    #dias{
+        padding-left: 1rem;
+    }
+  
+  }

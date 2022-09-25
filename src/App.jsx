@@ -8,13 +8,15 @@ import Formulario from './components/Formulario';
 import Presentación from './components/Presentación';
 import EntradasSorteo from './components/EntradasSorteo';
 import Sorteo from './components/Sorteo';
+import CuentaRegresiva from './components/CuentaRegresiva';
+
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Nav />
- 
+      <CuentaRegresiva />
       <Carrousel />
       <Presentación />
       <Premios />

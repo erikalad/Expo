@@ -13,7 +13,6 @@ for(let i=0;i<info.length;i++){
 
 function nrorandom(){
     let premiado = array[Math.floor(Math.random() *7)]
-    //VER DE APLICAR UN FILTRO PARA QUE BORRE EL SELECCIONADO
     return premiado
 }
 
