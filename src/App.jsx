@@ -7,7 +7,7 @@ import Info from './components/Información';
 import Formulario from './components/Formulario';
 import Presentación from './components/Presentación';
 import EntradasSorteo from './components/EntradasSorteo';
-import Sorteo from './components/Sorteo';
+
 import CuentaRegresiva from './components/CuentaRegresiva';
 
 
@@ -24,8 +24,6 @@ function App() {
       <Formulario/>
       <EntradasSorteo />
       <br/>
-      <hr/>
-      <Sorteo />
       <Footer />
 
      
