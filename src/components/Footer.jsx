@@ -9,7 +9,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 function Footer(){
     return(
-        <div className='footer'>
+        <div className='footer' id="footer">
 
                 <div className='logo'>
                     <a href=".." className='logo'><IoLogoInstagram /></a>
