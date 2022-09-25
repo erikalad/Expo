@@ -22,7 +22,7 @@ function App() {
       <br/>
       <Sorteo />
       </Route>
-      <Route exact path="/home">
+      <Route exact path="/">
       <CuentaRegresiva />
       <Carrousel />
       <Presentación />
