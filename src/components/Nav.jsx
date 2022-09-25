@@ -19,7 +19,7 @@ function Nav(){
             <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                 <li className="nav-item">
-                <a href="/home" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
+                <a href="/" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
                 </li>
                 <li>
                 <a href="#información" aria-current="page" className='nav-link active' style={{color:"white"}} >Información</a>
