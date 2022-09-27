@@ -22,6 +22,9 @@ function Nav(){
                 <a href="/" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
                 </li>
                 <li>
+                <a href="#sobre-nosotros" aria-current="page" className='nav-link active'  style={{color:"white"}} >Sobre Nosotros</a>
+                </li>
+                <li>
                 <a href="#información" aria-current="page" className='nav-link active' style={{color:"white"}} >Información</a>
                 </li>
                 <li>

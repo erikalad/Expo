@@ -1,0 +1,29 @@
+.sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#uno{
+    display: flex;
+    width: 48%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#dos{
+    display: flex;
+    width: 48%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#tres{
+    display: flex;
+    width: 48%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+    

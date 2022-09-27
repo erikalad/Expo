@@ -77,7 +77,7 @@ export default function Presentación(){
 
 
         
-            <div className="col-md-4 mt-5">
+            <div className="col-md-4 mt-5" id="entradas">
                  <div className="card text-bg-dark mb-3 text-center" id="ticket">
                     <div className="card-body">
                         <h5 className="card-title">Adquirí tu ticket por $150</h5>

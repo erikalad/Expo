@@ -10,6 +10,7 @@ import Presentación from './components/Presentación';
 import EntradasSorteo from './components/EntradasSorteo';
 import CuentaRegresiva from './components/CuentaRegresiva';
 import Sorteo from './components/Sorteo'
+import SobreNosotros from "./components/SobreNosotros";
 
 
 
@@ -26,9 +27,9 @@ function App() {
       <CuentaRegresiva />
       <Carrousel />
       <Presentación />
+      <SobreNosotros />
       <Premios />
       <Info />
-  
       </Route>
       <br/>
       <Footer />
