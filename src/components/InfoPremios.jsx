@@ -15,7 +15,7 @@ export default function InfoPremios(){
             de compra por usuario. Aumenta tus chances de ganar, comprando la cantidad que desees.
             </p>
             
-            <button type="button" className="btn btn-dark mt-5">COMPRAR AHORA POR $150</button>
+            <button type="button" className="btn btn-dark mt-5" id="comp"><a href="https://www.passline.com/eventos/tombola-de-la-joda">COMPRAR AHORA POR $150</a></button>
         
             </div>
             </div>
@@ -51,33 +51,31 @@ export default function InfoPremios(){
             </div>
             </div>
 
-
             <div id="display">
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <div className="card carta" id="tres">
-            <div className="card-body">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <div className="card carta d-block" id="uno">
+            <div className="card-body ">
             <h3>¿CÓMO PARTICIPAR?</h3>
             <br />
-            <p>Adquirir tu ticket por Passline a $150.- (ciento cincuenta pesos argentinos), sin límite
+            <p id="texto2">
+            Adquirir tu ticket por Passline a $150.- (ciento cincuenta pesos argentinos), sin límite
             de compra por usuario. Aumenta tus chances de ganar, comprando la cantidad que desees.
             </p>
-            <button type="button" className="btn btn-dark mt-5">COMPRAR AHORA POR $150</button>
+            
+            <button type="button" className="btn btn-dark mt-5" id="compra"><a href="https://www.passline.com/eventos/tombola-de-la-joda">COMPRAR AHORA POR $150</a></button>
+        
             </div>
             </div>
-                </div>
-                <div className="carousel-item">
-                <div className="card carta" id="dos">
+                    </div>
+                    <div class="carousel-item">
+               
+            <div className="card carta d-block" id="dos">
             <div className="card-body">
             <h3>¿CÓMO Y CUÁNDO SE SORTEA?</h3>
             <br />
-            <p>  
+            <p id="texto3">
             ● Vía streaming el día 14 de Octubre de 2022.<br />
             ● Se dispondrá de cuatro bolilleros para sortear los números en presencia de
             un escribano público.<br />
@@ -86,13 +84,13 @@ export default function InfoPremios(){
             </p>
             </div>
             </div>
-                </div>
-                <div className="carousel-item">
-                <div className="card carta" id="uno">
+                    </div>
+                    <div class="carousel-item">
+                    <div className="card carta d-block" id="tres">
             <div className="card-body">
             <h3>¿COMO Y CUANDO RECIBO LOS PREMIOS?</h3>
             <br />
-            <p>
+            <p id="texto4">
             ● Los tickets de los eventos serán enviados inmediatamente al ganador al mail
             que nos proporcione.<br />
             ● La estadía en el hotel será transferida al día siguiente cargando sus datos
@@ -103,17 +101,17 @@ export default function InfoPremios(){
             </p>
             </div>
             </div>
+                    </div>
                 </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" style={{color:"black"}}>
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style={{color:"black"}}></span>
+                    <span class="visually-hidden" style={{color:"black"}}  >Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
             </div>
         </div>
        
