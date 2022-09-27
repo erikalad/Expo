@@ -40,7 +40,7 @@ export default function Presentación(){
 
 
                 {/*----- Carrousel cocinero -----*/}
-                <div className="card mt-5">
+                <div className="card mt-5" id="cocinero">
                 <div className="row justify-content-md-center">
                  <div className="col-md-12 text-center">
                 <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">

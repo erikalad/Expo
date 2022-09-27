@@ -2,3 +2,16 @@
      margin-top:5rem;
 
 }
+
+
+#cocinero{
+     width: 50%;
+}
+
+@media (max-width: 785px) {
+     #cocinero{
+          width: 100%;
+          color:white;
+          font-size: 0.2rem !important;
+     }
+}

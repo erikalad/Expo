@@ -3,6 +3,17 @@
 }
 
 .premio{
-    height: 16.3rem;
+    height: 16.5rem;
 }
 
+.cartas{
+    height: 13rem;
+}
+
+@media (max-width: 785px) {
+
+    .cartas{
+        height: 7rem;
+        font-size: 0.7rem;
+    }
+}

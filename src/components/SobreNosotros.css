@@ -1,29 +1,68 @@
-.sobre-nosotros{
+#sobre-nosotros{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    font-size: 0.9rem;
+    background-image: url("https://w0.peakpx.com/wallpaper/602/314/HD-wallpaper-black-leather-fabric-luxury-pattern-texture.jpg");
+    height: 45rem;
+    padding:5rem;
+    padding-bottom: 1rem !important;
 }
 
-#uno{
+#display{
+    display: none;
+}
+.carouselExampleIndicators{
+    display:none ;
+}
+
+    
+.carta{
     display: flex;
+    text-align: center;
+    color:black;
+    opacity: 0.5;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
     width: 48%;
     margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    height: 30rem
+
 }
 
-#dos{
-    display: flex;
-    width: 48%;
-    margin-left: 2rem;
-    margin-top: 1rem;
-}
 
-#tres{
-    display: flex;
-    width: 48%;
-    margin-left: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+@media (max-width: 785px) {
+    .carouselExampleIndicators{
+        display:flex ;
+        background-image: url("https://w0.peakpx.com/wallpaper/602/314/HD-wallpaper-black-leather-fabric-luxury-pattern-texture.jpg");
+
+    }
+    #display{
+        display:flex ;
+    }
+    #sobre-nosotros{
+        display: none;
+    }
+
+    .carta{
+        display: flex;
+        text-align: center;
+        color:white;
+        font-size: 0.8rem !important;
+        opacity: 1 !important;
+        background-image: url("https://w0.peakpx.com/wallpaper/602/314/HD-wallpaper-black-leather-fabric-luxury-pattern-texture.jpg");
+        padding: 1rem;
+        padding-top:3rem;
+        padding-bottom: 3rem;
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 20rem
     
+    }
+    
+ 
+  
+  }
