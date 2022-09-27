@@ -64,7 +64,7 @@ export default function Presentación(){
             <div className="col-md-4 mt-5 " id="entradas" >
                  <div className="card text-bg-dark mb-3 justify-content-center" id="ticket">
                     <div className="card-body">
-                        <h5 className="card-title text-center">COMPRÁ AHORA</h5>
+                        <h5 className="card-title text-center"><a href="https://www.passline.com/eventos/tombola-de-la-joda">COMPRÁ AHORA</a></h5>
                    
                     </div>
                     </div>

@@ -59,7 +59,7 @@ export default function CuentaRegresiva (){
 
   return(
     <div className="contenedor">
-    <p className="faltan">TÓMBOLA DE LA JODA</p>
+    <p className="faltan" id="titulo">TÓMBOLA DE LA JODA</p>
     <div className="contador">
     
     <div className="con">

@@ -15,7 +15,7 @@ export default function Info(){
     </div>
     <div className="col-md-6">
       <div className="card-body">
-        <h5 className="card-title"><strong>Charlotte de Witte</strong></h5>
+        <h5 className="card-title" id="titulo"><strong>Charlotte de Witte</strong></h5>
         <p>
                 Charlotte de Witte es una DJ y productora discográfica belga. Su estilo es un techno de marcada tendencia minimal, así como influencias del ácid.1​ Al inicio de su carrera pinchaba con alias de Raving George. Es la fundadora del sello KNTXT. comenzó a explorar la escena de los clubes nocturnos subterráneos de Gante, donde se sintió atraída por la música electrónica. Comenzó a pinchar en 2010, principalmente tocando música electro; su trabajo de producción comenzó unos dos años después. Ganó un concurso de DJ de Studio Brussel en 2011 y posteriormente actuó en el festival Tomorrowland.
                 <br />
@@ -40,7 +40,7 @@ export default function Info(){
     </div>
     <div className="col-md-6">
       <div className="card-body">
-        <h5 className="card-title"><strong>Expo Cannabis 2022</strong></h5>
+        <h5 className="card-title" id="titulo"><strong>Expo Cannabis 2022</strong></h5>
         <p>
         Cientos de empresas nacionales e internacionales junto al Estado e instituciones.
         <br />

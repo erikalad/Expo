@@ -7,6 +7,9 @@
     flex-wrap: wrap;
 }
 
+#titulo{
+    font-family: "font-effect-3d-float"
+}
 .contenedor{
     
     text-align: center;
