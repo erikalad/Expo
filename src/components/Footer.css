@@ -6,14 +6,6 @@
     justify-content: flex-end;
     font-size: 2rem;
     text-decoration: none;
-  
+    height: 5rem;
 }
 
-.logo{
-    color:black
-}
-
-.logo:hover{
-    color:rgba(255, 255, 255, 0.511);
-
-}

@@ -28,7 +28,7 @@ function Nav(){
                 <a href="#información" aria-current="page" className='nav-link active' style={{color:"white"}} >Información</a>
                 </li>
                 <li>
-                <a href="#footer" aria-current="page" className='nav-link active' style={{color:"white"}} >Redes Sociales</a>
+                <a href="#redes" aria-current="page" className='nav-link active' style={{color:"white"}} >Redes Sociales</a>
                 </li>
                 <li>
                 <a href="#premios" aria-current="page" className='nav-link active' style={{color:"white"}} >Premios</a>

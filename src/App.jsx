@@ -17,8 +17,9 @@ import EntradasSorteo from "./components/EntradasSorteo";
 
 function App() {
   return (
+    
     <BrowserRouter>
-   
+   <div className="App">
       <Nav />
       <Route exact path="/">
       <CuentaRegresiva />
@@ -33,8 +34,9 @@ function App() {
       </Route>
       <br/>
       <Footer />
-
+      </div>
     </BrowserRouter>
+    
   );
 }
 

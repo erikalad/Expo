@@ -21,7 +21,7 @@ export default function Premios(){
                 ● 2 entradas CAMPO VIP para “K NT XT ft. Charlotte de Witte” en Mandarine Park &
                 Tent 5 de Noviembre 2022 23:00 hs.
                 <br />
-                ● Estadía en hotel por dos noches para dos adultos, con check-in el dia 5/11 y
+                ● Estadía en hotel por dos noches para dos adultos, Suite Executivecon check-in el dia 5/11 y
                 check-out el 7/11.
                 <br />
                 ● $150.000.- (Ciento cincuenta mil pesos argentinos) en efectivo para gastos
@@ -42,7 +42,7 @@ export default function Premios(){
                 ● 2 entradas CAMPO GENERAL para “K NT XT ft. Charlotte de Witte” en Mandarine
                 Park & Tent 5 de noviembre 2022 23:00 hs.
                 <br />
-                ● Estadía en hotel por dos noches para dos adultos, con check-in el día 5/11 y
+                ● Estadía en hotel por dos noches para dos adultos, Suite con balcón con check-in el día 5/11 y
                 check-out el 7/11.
                 <br />
                 ● $100.000.- (Cien mil pesos argentinos) en efectivo para gastos personales.
@@ -62,7 +62,7 @@ export default function Premios(){
                 ● 2 pases para los días 4,5 y 6 de noviembre 2022 para “Expo Cannabis en La Rural
                 - Buenos Aires”.
                 <br />
-                ● Estadía en hotel por dos noches para dos adultos, con check-in el día 4/11 y check
+                ● Estadía en hotel por dos noches para dos adultos, Habitación Doble Superior con 2 camas grandes con check-in el día 4/11 y check
                 out el 6/11.
                 <br />
                 ● $50.000.- (Cincuenta mil pesos argentinos) en efectivo para gastos personales.

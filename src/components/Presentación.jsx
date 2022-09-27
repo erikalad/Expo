@@ -1,6 +1,8 @@
 import React from "react";
 import './Presentación.css'
-import img1 from './../assest/joel2.png'
+import { IoLogoInstagram } from "react-icons/io";
+import { SiTwitch } from "react-icons/si";
+import img1 from './../assest/passline.jpeg'
 import img2 from './../assest/cocinero1.jpeg'
 import img3 from './../assest/cocinero2.jpeg'
 import img5 from './../assest/cocinero4.jpeg'
@@ -9,21 +11,13 @@ export default function Presentación(){
     return(
         <div className="container fluid" id="información">
         
-                    {/*---- JOEL ----*/}
-                    <div className="card mt-5">
-                    <h1 class="card-header bg-transparent border-success text-center" ><strong>Joel Salim</strong></h1>
+                    {/*---- PASSLINE ----*/}
+                    <div className="card mt-5" id="passline">
                         <div className="row justify-content-md-center">
-                        <div className="col-md-12 text-center">
-                        <img src={img1} className="img-fluid w-100" alt="cocinero"/>
+                        <div className="col-md-10 text-center">
+                        <img src={img1} className="img-fluid" alt="cocinero" id="img1"/>
                         </div>
-                        <div className="col-md-4 text-center">
-                        
-                        <div class="card-img-overlay">
-                            <h5 className="card-title text-center mt-5" style={{marginRight:"2rem" , color:"white"}}>en ACÁ SE BAILA! Quba <br /> Via Streaming</h5>
-                        </div>
-                        
-                        </div>
-                        </div>
+                    </div>
                     </div>
 
 
@@ -65,14 +59,35 @@ export default function Presentación(){
                 </div>
             </div>
 
-            <div className="col-md-4 mt-5 " id="entradas">
-                 <div className="card text-bg-dark mb-3 text-center" id="ticket">
+
+        
+            <div className="col-md-4 mt-5 " id="entradas" >
+                 <div className="card text-bg-dark mb-3 justify-content-center" id="ticket">
                     <div className="card-body">
-                        <h5 className="card-title">Adquirí tu ticket por $150</h5>
-                        <p>y participa por grandes premios!</p>
+                        <h5 className="card-title text-center">COMPRÁ AHORA</h5>
+                   
                     </div>
                     </div>
-                </div>
+
+
+                    <div className="card mb-3 text-center text-bg-light" >
+                    <h3 className="card-header" >SEGUINOS</h3>
+                  
+                    <div className="card-body" id="redes">
+                        
+                    <div className='logo'>
+                        <a href="https://www.instagram.com/andarproductions/" className='logo' id="ig"><IoLogoInstagram /></a>
+                       
+                        </div>
+
+                        <div className='logo' >
+                    <a href="https://www.twitch.tv/andarproductions" id="twitch" className='logo'><SiTwitch /></a>
+                    
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
         </div>
         
         </div>

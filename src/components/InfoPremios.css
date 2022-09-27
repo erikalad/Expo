@@ -59,9 +59,9 @@
 
 
 @media (max-width: 785px) {
-    .carouselExampleIndicators{
+    #carouselExampleIndicators{
         display:flex ;
-        background-image: url("https://w0.peakpx.com/wallpaper/602/314/HD-wallpaper-black-leather-fabric-luxury-pattern-texture.jpg");
+        
 
     }
     #display{

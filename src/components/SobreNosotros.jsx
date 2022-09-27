@@ -8,8 +8,8 @@ export default function SobreNosotros (){
 
             <hr />
             <div id="sobre-nosotros">
-            <div class="card carta" id="uno">
-            <div class="card-body">
+            <div className="card carta" id="uno">
+            <div className="card-body">
             <h3>ANDAR PRODUCTIONS</h3>
             <br />
             <p id="texto">
@@ -20,8 +20,8 @@ export default function SobreNosotros (){
             </div>
             </div>
 
-            <div class="card carta" id="dos">
-            <div class="card-body">
+            <div className="card carta" id="dos">
+            <div className="card-body">
             <h3>¿QUÉ ES UNA TÓMBOLA?</h3>
             <br />
             <p id="texto1">
@@ -31,8 +31,8 @@ export default function SobreNosotros (){
             </div>
             </div>
 
-            <div class="card carta" id="tres">
-            <div class="card-body">
+            <div className="card carta" id="tres">
+            <div className="card-body">
             <h3>¿CÓMO LO REPRESENTAMOS DESDE ANDAR?</h3>
             <br />
             <p>
@@ -44,16 +44,16 @@ export default function SobreNosotros (){
             </div>
             </div>
             <div id="display">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
+            <div className="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <div class="card carta" id="tres">
-            <div class="card-body">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                <div className="card carta" id="tres">
+            <div className="card-body">
             <h3>¿CÓMO LO REPRESENTAMOS DESDE ANDAR?</h3>
             <br />
             <p>
@@ -65,9 +65,9 @@ export default function SobreNosotros (){
             </div>
             </div>
                 </div>
-                <div class="carousel-item">
-                <div class="card carta" id="dos">
-            <div class="card-body">
+                <div className="carousel-item">
+                <div className="card carta" id="dos">
+            <div className="card-body">
             <h3>¿QUÉ ES UNA TÓMBOLA?</h3>
             <br />
             <p>
@@ -77,9 +77,9 @@ export default function SobreNosotros (){
             </div>
             </div>
                 </div>
-                <div class="carousel-item">
-                <div class="card carta" id="uno">
-            <div class="card-body">
+                <div className="carousel-item">
+                <div className="card carta" id="uno">
+            <div className="card-body">
             <h3>ANDAR PRODUCTIONS</h3>
             <br />
             <p>
@@ -91,13 +91,13 @@ export default function SobreNosotros (){
             </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
             </button>
             </div>
             </div>

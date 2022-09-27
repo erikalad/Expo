@@ -3,6 +3,36 @@
 
 }
 
+#passline{
+     background-color: rgb(48, 2, 91);
+     filter: grayscale(0.3)
+}
+
+
+#redes{
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.logo{
+     margin-right: 4rem;
+     color:black
+}
+
+.logo:hover{
+     cursor: pointer;
+}
+
+#ig:hover{
+     color:rgb(136, 1, 185)
+}
+
+#twitch:hover{
+     color:rgb(121, 181, 244)
+}
 
 #cocinero{
      width: 50%;
@@ -13,12 +43,19 @@
      flex-direction: row;
      justify-content: space-between;
      margin-bottom: 5rem;
+     
+}
+
+#seguinos{
+     background-color: #c3c1c1;
 }
 
 @media (max-width: 785px) {
      #cocinero{
-          width: 100%;
-          color:white;
-          font-size: 0.2rem !important;
+         display: none;
+     }
+
+     #entradas{
+          margin-left: 2rem;
      }
 }
