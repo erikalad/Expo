@@ -8,17 +8,7 @@ import img5 from './../assest/cocinero4.jpeg'
 export default function Presentación(){
     return(
         <div className="container fluid" id="información">
-            <h1 className="col text-center" id="andar">ANDAR Productions</h1>
-            <hr />
         
-            <h5 className="col text-center">Tómbola de la Joda!!!</h5>
-            <p className="col text-center"> Presenta a </p>
-
-            
-        
-            
-                
-
                     {/*---- JOEL ----*/}
                     <div className="card mt-5">
                     <h1 class="card-header bg-transparent border-success text-center" ><strong>Joel Salim</strong></h1>
@@ -37,8 +27,8 @@ export default function Presentación(){
                     </div>
 
 
-
-
+{/*----- Carrousel cocinero & boton compra -----*/}
+            <div className="coci-compra">
                 {/*----- Carrousel cocinero -----*/}
                 <div className="card mt-5" id="cocinero">
                 <div className="row justify-content-md-center">
@@ -75,17 +65,15 @@ export default function Presentación(){
                 </div>
             </div>
 
-
-        
-            <div className="col-md-4 mt-5" id="entradas">
+            <div className="col-md-4 mt-5 " id="entradas">
                  <div className="card text-bg-dark mb-3 text-center" id="ticket">
                     <div className="card-body">
                         <h5 className="card-title">Adquirí tu ticket por $150</h5>
-                        <p className="card-text">Y participá por...</p>
+                        <p>y participa por grandes premios!</p>
                     </div>
                     </div>
                 </div>
-      
+        </div>
         
         </div>
     )

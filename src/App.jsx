@@ -7,10 +7,11 @@ import Carrousel from './components/Carrousel';
 import Premios from './components/Premios';
 import Info from './components/Información';
 import Presentación from './components/Presentación';
-import EntradasSorteo from './components/EntradasSorteo';
+
 import CuentaRegresiva from './components/CuentaRegresiva';
-import Sorteo from './components/Sorteo'
 import SobreNosotros from "./components/SobreNosotros";
+import InfoPremios from "./components/InfoPremios";
+import EntradasSorteo from "./components/EntradasSorteo";
 
 
 
@@ -19,17 +20,16 @@ function App() {
     <BrowserRouter>
    
       <Nav />
-      <Route exact path="/admin1410">
-      <br/>
-      <Sorteo />
-      </Route>
       <Route exact path="/">
       <CuentaRegresiva />
       <Carrousel />
       <Presentación />
       <SobreNosotros />
+      
       <Premios />
+      <InfoPremios />
       <Info />
+      <EntradasSorteo />
       </Route>
       <br/>
       <Footer />

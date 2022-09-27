@@ -8,6 +8,13 @@
      width: 50%;
 }
 
+.coci-compra{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 5rem;
+}
+
 @media (max-width: 785px) {
      #cocinero{
           width: 100%;
