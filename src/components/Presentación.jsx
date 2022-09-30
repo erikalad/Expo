@@ -1,6 +1,8 @@
 import React from "react";
 import './Presentación.css'
+import { CgShoppingCart } from "react-icons/cg";
 import { IoLogoInstagram } from "react-icons/io";
+import { HiOutlineCursorClick } from "react-icons/hi";
 import { SiTwitch } from "react-icons/si";
 import img1 from './../assest/passline.jpeg'
 import img2 from './../assest/cocinero1.jpeg'
@@ -62,12 +64,9 @@ export default function Presentación(){
 
         
             <div className="col-md-4 mt-5 " id="entradas" >
-                 <div className="card text-bg-dark mb-3 justify-content-center" id="ticket">
-                    <div className="card-body">
-                        <h5 className="card-title text-center"><a href="https://www.passline.com/eventos/tombola-de-la-joda">COMPRÁ AHORA</a></h5>
-                   
-                    </div>
-                    </div>
+                    
+                    <button  type="button" className="btn btn-dark" id="entra"><a href="https://www.passline.com/eventos/tombola-de-la-joda"> COMPRÁ AHORA  <CgShoppingCart /> </a></button>
+                
 
 
                     <div className="card mb-3 text-center text-bg-light" >

@@ -49,13 +49,45 @@
 #seguinos{
      background-color: #c3c1c1;
 }
+#entra{
 
-@media (max-width: 785px) {
+     display: flex;
+     flex: 1 1;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+     font-size: 1.4rem;
+     background-color:  #000000;
+     box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+     color: rgb(255, 255, 255);
+     border-radius: 100px;
+     border: 2px solid white;
+     margin: 4px;
+     cursor: pointer;
+     user-select: none;
+     height:15%;
+     width: 100%;
+     margin-bottom: 2rem;
+}
+#entra:hover {
+     transform: scale(1.05);
+     background-color: rgb(30, 43, 46);
+     color: white;
+}
+
+ a:hover{
+     color:rgb(255, 0, 238)
+ }  
+
+@media (max-width: 985px) {
      #cocinero{
          display: none;
      }
 
      #entradas{
           margin-left: 2rem;
+     }
+     #entra{
+          font-size: 1rem !important;
      }
 }
