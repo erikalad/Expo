@@ -12,12 +12,12 @@ function Nav(){
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
-                <div className="offcanvas-header bg-dark" >
-                   <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src={logo} alt="logo" className="navbar-brand logo"/></h5>
-                    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div className="offcanvas-header bg-dark"  style={{color:"white"}}>
+                   <h5 style={{color:"white"}} className="offcanvas-title" id="offcanvasNavbarLabel"><img src={logo} alt="logo" className="navbar-brand logo"/></h5>
+                    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" id="cerrar" style={{backgroundColor:"white"}}></button>
             </div>
             <div className="offcanvas-body">
-                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
                 <li className="nav-item">
                 <a href="/" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
                 </li>
