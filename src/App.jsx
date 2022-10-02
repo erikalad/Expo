@@ -12,6 +12,7 @@ import CuentaRegresiva from './components/CuentaRegresiva';
 import SobreNosotros from "./components/SobreNosotros";
 import InfoPremios from "./components/InfoPremios";
 import EntradasSorteo from "./components/EntradasSorteo";
+import Quba from "./components/Quba";
 
 
 
@@ -26,7 +27,7 @@ function App() {
       <CuentaRegresiva />
       <Carrousel />
       <Presentación />
-   
+      <Quba />
       <SobreNosotros />
       
       <Premios />

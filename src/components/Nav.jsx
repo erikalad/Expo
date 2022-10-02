@@ -22,10 +22,10 @@ function Nav(){
                 <a href="/" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
                 </li>
                 <li>
-                <a href="#sobre-nosotros" aria-current="page" className='nav-link active'  style={{color:"white"}} >Sobre Nosotros</a>
+                <a href="#sobre-nosotros" aria-current="page" className='nav-link active'  style={{color:"white"}}>Sobre Nosotros</a>
                 </li>
                 <li>
-                <a href="#información" aria-current="page" className='nav-link active' style={{color:"white"}} >Información</a>
+                <a href="#información" aria-current="page" className='nav-link active' style={{color:"white"}}>Información</a>
                 </li>
                 <li>
                 <a href="#redes" aria-current="page" className='nav-link active' style={{color:"white"}} >Redes Sociales</a>
@@ -34,7 +34,7 @@ function Nav(){
                 <a href="#premios" aria-current="page" className='nav-link active' style={{color:"white"}} >Premios</a>
                 </li>
                 <li>
-                <a href="#entradas" aria-current="page" className='nav-link active'  style={{color:"white"}} >Entradas</a>
+                <a href="#entradas" aria-current="page" className='nav-link active'  style={{color:"white"}}>Entradas</a>
                 </li>
                 </ul>
              </div>
