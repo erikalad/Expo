@@ -64,7 +64,7 @@ export default function InfoPremios(){
             de compra por usuario. Aumenta tus chances de ganar, comprando la cantidad que desees.
             </p>
             
-            <button type="button" className="btn btn-dark mt-5" id="compra"><a href="https://www.passline.com/eventos/tombola-de-la-joda">COMPRAR AHORA POR $150</a></button>
+            <button type="button" className="btn btn-dark mt-5" id="compra"><a href="https://www.passline.com/eventos/tombola-de-la-joda-31102022">COMPRAR AHORA POR $150</a></button>
         
             </div>
             </div>

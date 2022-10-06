@@ -67,7 +67,7 @@ export default function Presentación(){
             <div className="col-md-4 mt-5 " id="entradas" >
 
             <h3 className="titu"><ImArrowDownRight className="ic"/><div className="noafu">NO TE QUEDES AFUERA!</div><ImArrowDownLeft className="ic"/></h3>      
-            <a href="https://www.passline.com/eventos/tombola-de-la-joda"><button  type="button" className="btn btn-dark" id="entra"> COMPRÁ AHORA  <CgShoppingCart /> </button></a>
+            <a href="https://www.passline.com/eventos/tombola-de-la-joda-31102022"><button  type="button" className="btn btn-dark" id="entra"> COMPRÁ AHORA  <CgShoppingCart /> </button></a>
                 
 
 
