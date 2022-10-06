@@ -1,8 +1,7 @@
 import React from 'react';
 import './Carrousel.css';
 import img1 from './../assest/logo fondo rectangular.jpg'
-import img2 from './../assest/img-2.jpeg'
-import img4 from './../assest/quba.png'
+
 
 
 export default function Carrousel() {
@@ -13,9 +12,9 @@ export default function Carrousel() {
    <div className="carousel-item active" data-bs-interval="3000">
       <img src={img1} className="d-block w-100" alt="1" />
     </div>
-    <div className="carousel-item" data-bs-interval="3000">
+  {/*   <div className="carousel-item" data-bs-interval="3000">
       <img src={img4} className="d-block w-100" alt="4"/>
-    </div>
+    </div> */}
   </div>
  
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
