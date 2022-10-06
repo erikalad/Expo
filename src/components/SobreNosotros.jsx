@@ -37,8 +37,8 @@ export default function SobreNosotros (){
             <br />
             <p>
             En esta primera edición de “La tómbola de la joda” vamos a estar presentando vía
-            streaming un line up variado de distintos talentos locales, desde las 18:00 hs del día 14 de
-            octubre, hasta las 06:00 hs del 15 de octubre. En el cual habrá distintas sorpresas en presencia de escribano público.
+            streaming un line up variado de distintos talentos locales, desde las 18:00 hs del día 31 de
+            octubre, hasta las 01:00 hs del 1 de noviembre. En el cual habrá distintas sorpresas en presencia de escribano público.
             </p>
             </div>
             </div>
