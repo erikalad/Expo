@@ -25,7 +25,7 @@ export default function InfoPremios(){
             <h3>¿CÓMO Y CUÁNDO SE SORTEA?</h3>
             <br />
             <p id="texto3">
-            ● Vía streaming el día 14 de Octubre de 2022.<br />
+            ● Vía streaming el día 31 de Octubre de 2022.<br />
             ● Se dispondrá de cuatro bolilleros para sortear los números en presencia de
             un escribano público.<br />
             ● Una vez completo el número, nos comunicaremos con el afortunado o la

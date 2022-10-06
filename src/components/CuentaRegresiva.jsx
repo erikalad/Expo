@@ -52,7 +52,7 @@ export default function CuentaRegresiva (){
   };
 
 
-    countdown('Oct 14 2022 18:00:00 GMT-0300','¡Ya empezó!')
+    countdown('Oct 31 2022 18:00:00 GMT-0300','¡Ya empezó!')
   
   
 
