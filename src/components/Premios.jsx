@@ -24,8 +24,7 @@ export default function Premios(){
                 ● Estadía en hotel por dos noches para dos adultos, Suite Executivecon check-in el dia 5/11 y
                 check-out el 7/11.
                 <br />
-                ● $150.000.- (Ciento cincuenta mil pesos argentinos) en efectivo para gastos
-                personales
+                ● Efectivo para gastos personales
             </p>
     
              </div>
@@ -45,7 +44,7 @@ export default function Premios(){
                 ● Estadía en hotel por dos noches para dos adultos, Suite con balcón con check-in el día 5/11 y
                 check-out el 7/11.
                 <br />
-                ● $100.000.- (Cien mil pesos argentinos) en efectivo para gastos personales.
+                ● Efectivo para gastos personales
             </p>
         
              </div>
@@ -65,7 +64,7 @@ export default function Premios(){
                 ● Estadía en hotel por dos noches para dos adultos, Habitación Doble Superior con 2 camas grandes con check-in el día 4/11 y check
                 out el 6/11.
                 <br />
-                ● $50.000.- (Cincuenta mil pesos argentinos) en efectivo para gastos personales.
+                ● Efectivo para gastos personales
             </p>
         
              </div>
