@@ -6,7 +6,7 @@ export default function InfoPremios(){
             <div className="container" id="InfoPremios" >
                 
             <div id="sobre-nosotros">
-            <div className="card carta" id="uno">
+            <div className="card carta infopremios" id="uno">
             <div className="card-body">
             <h3>¿CÓMO PARTICIPAR?</h3>
             <br />
@@ -20,7 +20,7 @@ export default function InfoPremios(){
             </div>
             </div>
 
-            <div className="card carta" id="dos">
+            <div className="card carta infopremios" id="dos">
             <div className="card-body">
             <h3>¿CÓMO Y CUÁNDO SE SORTEA?</h3>
             <br />
@@ -34,7 +34,7 @@ export default function InfoPremios(){
             </div>
             </div>
 
-            <div className="card carta" id="tres">
+            <div className="card carta infopremios" id="tres">
             <div className="card-body">
             <h3>¿COMO Y CUANDO RECIBO LOS PREMIOS?</h3>
             <br />
@@ -55,7 +55,7 @@ export default function InfoPremios(){
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <div className="card carta d-block" id="uno">
+                    <div className="card carta infopremios d-block" id="uno">
             <div className="card-body ">
             <h3>¿CÓMO PARTICIPAR?</h3>
             <br />
@@ -71,7 +71,7 @@ export default function InfoPremios(){
                     </div>
                     <div class="carousel-item">
                
-            <div className="card carta d-block" id="dos">
+            <div className="card carta infopremios d-block" id="dos">
             <div className="card-body">
             <h3>¿CÓMO Y CUÁNDO SE SORTEA?</h3>
             <br />
@@ -86,7 +86,7 @@ export default function InfoPremios(){
             </div>
                     </div>
                     <div class="carousel-item">
-                    <div className="card carta d-block" id="tres">
+                    <div className="card carta infopremios d-block" id="tres">
             <div className="card-body">
             <h3>¿COMO Y CUANDO RECIBO LOS PREMIOS?</h3>
             <br />

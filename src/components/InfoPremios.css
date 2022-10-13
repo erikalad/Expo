@@ -27,7 +27,7 @@ a{
 }
 
     
-.carta{
+.infopremios{
     display: flex;
     text-align: center;
     color:black;
@@ -86,7 +86,7 @@ background-color: white;
         display: none;
     }
 
-    .carta{
+    .infopremios{
         display: flex;
         text-align: center;
         color:white;

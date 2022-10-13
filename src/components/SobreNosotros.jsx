@@ -43,7 +43,28 @@ export default function SobreNosotros (){
             </div>
             </div>
             </div>
-            <div id="display">
+
+            <div id="objetivo">
+                <div className="card carta" id="principal">
+                <div className="card-body">
+                    <h3>NUESTRO OBJETIVO PRINCIPAL</h3>
+                    <br />
+                    <p>
+                    Nuestro objetivo principal es hacer prosperar a cada persona y espacio que se involucre con nosotros.
+                    </p>
+                    <p id="tex-obj">
+                    - Capacitando a nuestros empleados constantemente.
+                    <br />
+                    - Retribuyendo desde nuestra RSE y generando un impacto positivo a los espacios y comunidad donde desarrollemos nuestros proyectos.
+                    <br />
+                    - Brindando respaldo a los artistas que participen de los diferentes eventos y proyectos que se lleven a cabo por la empresa.
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+
+            {/*<div id="display">
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -100,7 +121,48 @@ export default function SobreNosotros (){
                 <span className="visually-hidden">Next</span>
             </button>
             </div>
+            </div> */}
+
+            {/*------MODO CELU-------*/}
+            <div>
+            <div id="celu">
+            <div className="card carta" id="uno">
+            <div className="card-body">
+            <h3>ANDAR PRODUCTIONS</h3>
+            <br />
+            <p id="texto">
+            Andar Productions es una joven productora de eventos, conformada por amigos y
+            familia. Orientada a apoyar e impulsar la carrera artística de los talentos locales,
+            brindándoles la oportunidad de posicionarse en la escena nacional e internacional.
+            </p>
+            </div>
+            </div>
+
+            <div className="card carta" id="dos">
+            <div className="card-body">
+            <h3>¿QUÉ ES UNA TÓMBOLA?</h3>
+            <br />
+            <p id="texto1">
+            Es una rifa en la que los premios son objetos diversos y cuyos beneficios suelen
+            destinarse a fines benéficos.
+            </p>
+            </div>
+            </div>
+
+            <div className="card carta" id="tres">
+            <div className="card-body">
+            <h3>¿CÓMO LO REPRESENTAMOS DESDE ANDAR?</h3>
+            <br />
+            <p id="tex-tres">
+            En esta primera edición de “La tómbola de la joda” vamos a estar presentando vía
+            streaming un line up variado de distintos talentos locales, desde las 18:00 hs del día 31 de
+            octubre, hasta las 01:00 hs del 1 de noviembre. En el cual habrá distintas sorpresas en presencia de escribano público.
+            </p>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
+
     )
 }

@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { IoLogoInstagram } from "react-icons/io";
-import { IoLogoYoutube } from "react-icons/io";
 
 
 

@@ -64,19 +64,19 @@ export default function CuentaRegresiva (){
     
     <div className="con">
     <div className="card numero" >{dias}</div>
-    <p className="card-body" id="dias">DIAS</p>
+    <p className="card-body regresiva" id="dias">DIAS</p>
     </div>
     <div className="con">
     <div className="card numero" >{horas}</div>
-    <p className="card-body" id="horas">HORAS</p>
+    <p className="card-body regresiva" id="horas">HORAS</p>
     </div>
     <div className="con">
     <div className="card numero" >{minutos}</div>
-    <p className="card-body" id="minutos">MINUTOS</p>
+    <p className="card-body regresiva" id="minutos">MINUTOS</p>
     </div>
     <div className="con">
     <div className="card numero" >{segundos}</div>
-    <p className="card-body" id="segundos">SEGUNDOS</p>
+    <p className="card-body regresiva" id="segundos">SEGUNDOS</p>
     </div>
     {final}
     </div>
