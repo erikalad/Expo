@@ -9,3 +9,7 @@
     height: 5rem;
 }
 
+.logos{
+    display: flex;
+    flex-direction: row;
+}

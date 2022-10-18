@@ -1,0 +1,24 @@
+.container{
+    margin-top: 5rem;
+}
+
+
+.sponsor{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.logos{
+    margin:2rem;
+    width: 10%;
+    border-radius: 5rem;
+}
+
+.logos:hover{
+    transform: scale(1.20);
+ }

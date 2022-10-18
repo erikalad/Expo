@@ -1,8 +1,8 @@
 import React from 'react';
 import './Carrousel.css';
 import img1 from './../assest/logo fondo rectangular.jpg'
-import img4 from './../assest/img4.jpg'
-
+import img2 from './../assest/premios.png'
+import img3 from './../assest/fondo.png'
 
 export default function Carrousel() {
     return (
@@ -13,7 +13,10 @@ export default function Carrousel() {
       <img src={img1} className="d-block w-100" alt="1" />
     </div>
      <div className="carousel-item" data-bs-interval="3000">
-      <img src={img4} className="d-block w-100" alt="4"/>
+      <img src={img3} className="d-block w-100" alt="4"/>
+    </div>
+    <div className="carousel-item" data-bs-interval="3000">
+      <img src={img2} className="d-block w-100" alt="2"/>
     </div>
   </div>
  
