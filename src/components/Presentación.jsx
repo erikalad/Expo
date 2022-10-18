@@ -78,16 +78,7 @@ Conductora de "Cultura Dreamers" @culturadreamers , el programa de la productora
                             <div className="card-body">
                                 <h5 className="card-title">Sebastián Gallo</h5>
                                 <p className="card-text">GALØ con base en Mar Del Plata comenzó sus primeros pasos por la música electrónica en el año 2015, 
-Si bien sus sonidos son bien melódicos y oscuros, así como también voladores e hipnóticos, aún conserva la presencia del género progresivo a la hora del armado de sus sets, lo que permite que el artista se destaque en cada show y que su público viaje a través de su música.  
-Se ha presentado en los clubes más importantes de Mar del Plata, Argentina; entre ellos Zwan, club La Normandina, discoteca Stadium, discoteca GAP, Balneario Horizonte del Sol, Santa PG y también en Downtempo Rooftop, (Ciudad Autónoma de Buenos Aires, Argentina), Club La Luna (Pinamar, Argentina), Discoteca Luxx (Córdoba, Argentina) e internacional Discoteca on heaven,Playa del carmen, MÉxico. 
-Compartió cabina con DJs reconocidos a nivel nacional como Crisstiano, Alejo Gonzalez, Brian Gross y Marcelo Vassami; e internacional como Paradoks (Suiza), Morttagua (Brasil) y Blancah (Brasil).
-En su nueva etapa como productor musical, GALO viene incursionando con su propio sonido para lograr destacarse aún más en sus presentaciones. 
-Recientemente grabó en modo streaming en los mejores clubes del país, entre ellos, Crobar (Ciudad Autónoma de Buenos Aires, Argentina), Bahrein (Ciudad Autónoma de Buenos Aires, Argentina), Laguna Azul Wakepark (Córdoba, Argentina) e internacionales en ephimera Tulum, México.
- sello en  labels internacionales como
-STEYOYOKE 
- PERSUIT
-SUAH RECORDS
-REVELATION</p>
+Si bien sus sonidos son bien melódicos y oscuros, así como también voladores e hipnóticos, aún conserva la presencia del género progresivo a la hora del armado de sus sets, lo que permite que el artista se destaque en cada show y que su público viaje a través de su música.</p>
                             </div>
                             </div>
                         </div>
