@@ -53,7 +53,7 @@
     padding-right: 2rem !important;
 }
 
-@media (max-width: 785px) {
+@media (max-width: 985px) {
     .numero {
         line-height: 30px;
         text-align: center;

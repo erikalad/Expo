@@ -38,6 +38,14 @@
         width: 50%;
     }
     
+    .on{
+        display: none;
+    }
+
+    .in{
+        width: 180% !important;
+        margin-left: 0 !important;
+    }
 
 
 }

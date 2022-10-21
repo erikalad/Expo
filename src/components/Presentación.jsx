@@ -1,6 +1,6 @@
 import React from "react";
 import './Presentación.css'
-import img1 from './../assest/passline.jpeg'
+import img1 from './../assest/passline.png'
 import img6 from './../assest/lonoz.jpeg'
 import img7 from './../assest/fernanda.jpeg'
 import img8 from './../assest/galo.jpeg'

@@ -1,8 +1,8 @@
 import React from "react";
 import './EntradasSorteo.css'
-import img1 from './../assest/ticket.jpeg'
+import img1 from './../assest/ticket.png'
 import { CgShoppingCart } from "react-icons/cg";
-import img2 from './../assest/passline.jpeg'
+import img2 from './../assest/passline.png'
 import { ImArrowDownRight } from "react-icons/im";
 import { ImArrowDownLeft } from "react-icons/im";
 
@@ -11,7 +11,7 @@ export default function EntradasSorteo(){
     return(
         <div className="container">
         <div className="imagen">
-        <img src={img2} className="img-fluid" alt="evento" id="img1"/>   
+        <img src={img2} className="img-fluid on" alt="evento" id="img1"/>   
         <img src={img1} alt='entrada' className="in"/>
          </div>
          <div className="boton-compra">
