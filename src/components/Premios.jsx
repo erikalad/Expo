@@ -3,9 +3,9 @@ import img from './../assest/charlotte.jpg'
 import expo from './../assest/expo-cannabis.jpeg'
 import entrada from './../assest/charlotte.png'
 import './Premios.css'
-import img1 from '../assest/04.jpg'
-import img2 from '../assest/05.jpg'
-import img3 from '../assest/06.jpg'
+import img1 from '../assest/04.jpeg'
+import img2 from '../assest/05.jpeg'
+import img3 from '../assest/06.jpeg'
 
 export default function Premios(){
     return(

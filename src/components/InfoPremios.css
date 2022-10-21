@@ -52,12 +52,12 @@
 #texto4{
     display: flex;
     text-align: start;
-    margin-top: 2rem;
+    margin-top: 0;
     margin-left: 1rem;
 }
 
 #tres{
-    padding-top: 1.5rem !important;
+    padding-top: 0 !important;
 }
 
 #comp{

@@ -1,0 +1,43 @@
+.container{
+    width: 80%;
+}
+
+.boton-compra{
+    padding-left: 30%;
+    align-items: center;
+    margin-top: 2rem;
+    width: 70%
+}
+
+.imagen{
+    margin: 1rem;
+    display: flex;
+    width: 50%;
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.in{
+    margin-left: 1rem;
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+@media (max-width: 985px) {
+    .container{
+        width: 100% !important;
+    }
+    
+    .boton-compra{
+        padding-left: 0 !important;
+        align-items: center;
+        margin-top: 2rem;
+        width: 100%
+    }
+    
+    .imagen{
+        display: flex;
+        width: 50%;
+    }
+    
+
+
+}

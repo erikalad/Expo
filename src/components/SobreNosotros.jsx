@@ -31,7 +31,7 @@ export default function SobreNosotros (){
             </div>
             </div>
 
-            <div className="card carta" id="tres">
+            <div className="card carta" id="tress">
             <div className="card-body">
             <h3>¿CÓMO LO REPRESENTAMOS DESDE ANDAR?</h3>
             <br />

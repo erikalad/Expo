@@ -12,6 +12,7 @@ import SobreNosotros from "./components/SobreNosotros";
 import InfoPremios from "./components/InfoPremios";
 import EntradasSorteo from "./components/EntradasSorteo";
 import Sponsors from "./components/Sponsors";
+import AndarProductions from "./components/AndarProductions";
 
 
 
@@ -23,13 +24,15 @@ function App() {
    <div className="App">
       <Nav />
       <Route exact path="/">
-      <CuentaRegresiva />
-      <Carrousel />
-      <Presentación />
+      <AndarProductions />
       <SobreNosotros />
+      
+      <Carrousel />
+      <CuentaRegresiva />
+      <Presentación />
+      <EntradasSorteo />
       <Premios />
       <InfoPremios />
-      <EntradasSorteo />
       <Sponsors />
       </Route>
       <br/>

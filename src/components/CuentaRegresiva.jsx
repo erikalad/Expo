@@ -59,7 +59,7 @@ export default function CuentaRegresiva (){
 
   return(
     <div className="contenedor">
-    <p className="faltan" id="titulo">TÓMBOLA DE LA JODA</p>
+    {/* <p className="faltan" id="titulo">TÓMBOLA DE LA JODA</p> */}
     <div className="contador">
     
     <div className="con">
@@ -67,7 +67,7 @@ export default function CuentaRegresiva (){
     <p className="card-body regresiva" id="dias">DIAS</p>
     </div>
     <div className="con">
-    <div className="card numero" >{horas}</div>
+    <div className="card numero">{horas}</div>
     <p className="card-body regresiva" id="horas">HORAS</p>
     </div>
     <div className="con">

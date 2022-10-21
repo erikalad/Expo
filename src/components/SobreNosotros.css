@@ -22,7 +22,7 @@
     font-size: 1rem;
 }
 #texto1{
-    margin-top: 2rem;
+    margin-top: 4rem;
     font-size: 1rem;
 }
     
@@ -63,6 +63,19 @@
     text-align: start;
     
 }
+
+#uno{
+   padding-top: 0!important;
+}
+
+#dos{
+    padding-top: 0 !important;
+}
+
+#tress{
+    padding-top: 0 !important;
+}
+
 
 
 @media (max-width: 785px) {
