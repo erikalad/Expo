@@ -128,7 +128,7 @@ border-radius: 2rem;
         
          width: 310px;
          height: 200px;
-    
+         margin-left: 2rem !important;
     }
 
     #ig{

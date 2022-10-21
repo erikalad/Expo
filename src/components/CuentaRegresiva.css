@@ -68,11 +68,14 @@
     .regresiva{
         font-size: 10px;
         text-align: start;
-        padding-left: 00.5rem;
+        padding-left: 0px !important;
        
     }
     #dias{
-        padding-left: 1rem;
+        padding-left: 0.7rem !important;
+    }
+    #horas{
+        padding-left: 0.5rem !important;
     }
     .contador{
         margin-left: 1.5rem;
