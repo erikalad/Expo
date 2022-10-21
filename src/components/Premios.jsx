@@ -1,7 +1,5 @@
 import React from "react";
-import img from './../assest/charlotte.jpg'
-import expo from './../assest/expo-cannabis.jpeg'
-import entrada from './../assest/charlotte.png'
+
 import './Premios.css'
 import img1 from '../assest/04.jpeg'
 import img2 from '../assest/05.jpeg'

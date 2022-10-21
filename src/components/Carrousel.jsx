@@ -1,6 +1,6 @@
 import React from 'react';
 import './Carrousel.css';
-import img1 from './../assest/logo fondo rectangular.jpg'
+
 import img2 from './../assest/premios.png'
 import img3 from './../assest/fondo.png'
 

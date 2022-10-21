@@ -1,15 +1,6 @@
 import React from "react";
 import './Presentación.css'
-import { CgShoppingCart } from "react-icons/cg";
-import { IoLogoInstagram } from "react-icons/io";
-import { ImArrowDownRight } from "react-icons/im";
-import { ImArrowDownLeft } from "react-icons/im";
-import { SiTwitch } from "react-icons/si";
 import img1 from './../assest/passline.jpeg'
-import img2 from './../assest/cocinero1.jpeg'
-import img3 from './../assest/cocinero2.jpeg'
-
-import img5 from './../assest/cocinero4.jpeg'
 import img6 from './../assest/Lonoz.jpeg'
 import img7 from './../assest/Fernanda.jpeg'
 import img8 from './../assest/Galo.jpeg'
