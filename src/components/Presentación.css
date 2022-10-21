@@ -9,16 +9,6 @@
      margin-bottom: 3rem;
 }
 
-
-
-#redes{
-     display: flex;
-     flex-direction: row;
-     text-align: center;
-    justify-content: center;
-    font-size: 5rem;
-}
-
 .logo{
      margin-right: 4rem;
      color:black
@@ -214,7 +204,7 @@ a{
      }
 
      #entradas{
-          margin-left: 2rem;
+          margin-left:0 !important
      }
      #entra{
           font-size: 1rem !important;

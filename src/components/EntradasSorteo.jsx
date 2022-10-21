@@ -9,7 +9,7 @@ import { ImArrowDownLeft } from "react-icons/im";
 
 export default function EntradasSorteo(){
     return(
-        <div className="container">
+        <div className="container" id="entradas">
         <div className="imagen">
         <img src={img2} className="img-fluid on" alt="evento" id="img1"/>   
         <img src={img1} alt='entrada' className="in"/>

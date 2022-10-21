@@ -36,6 +36,9 @@ function Nav(){
                 <li>
                 <a href="#entradas" aria-current="page" className='nav-link active'  style={{color:"white"}}>Entradas</a>
                 </li>
+                <li>
+                <a href="#sponsors" aria-current="page" className='nav-link active'  style={{color:"white"}}>Sponsors</a>
+                </li>
                 </ul>
              </div>
             </div>

@@ -13,6 +13,7 @@ import InfoPremios from "./components/InfoPremios";
 import EntradasSorteo from "./components/EntradasSorteo";
 import Sponsors from "./components/Sponsors";
 import AndarProductions from "./components/AndarProductions";
+import Redes from "./components/Redes";
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <EntradasSorteo />
       <Premios />
       <InfoPremios />
+      <Redes />
       <Sponsors />
       </Route>
       <br/>
