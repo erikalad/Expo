@@ -1,12 +1,12 @@
 import React from "react";
 import './Presentación.css'
-import img1 from './../assest/passline.jpeg'
-
-import img7 from './../assest/Fernanda.jpeg'
-import img8 from './../assest/Galo.jpeg'
-import img9 from './../assest/Nico.jpeg'
-import img10 from './../assest/Malvi.jpeg'
-import img11 from './../assest/Martina.jpeg'
+import img1 from '../assest/passline.jpeg'
+import img6 from '../assest/Lonoz.jpeg'
+import img7 from '../assest/Fernanda.jpeg'
+import img8 from '../assest/Galo.jpeg'
+import img9 from '../assest/Nico.jpeg'
+import img10 from '../assest/Malvi.jpeg'
+import img11 from '../assest/Martina.jpeg'
 
 export default function Presentación(){
     return(
@@ -69,7 +69,7 @@ excelente lector de pista</p>
 		<div class="tarjeta-wrap">
 			<div class="tarjeta">
 				<div class="adelante card1">
-                <img src={img7} className="img-fluid rounded-start" alt="..."/>
+                <img src={img6} className="img-fluid rounded-start" alt="..."/>
                 </div>
 				<div class="atras">
                 <h5 className="card-title">PABLO ALBORNOZ</h5>
