@@ -15,3 +15,20 @@
 .nav-link{
     color:white !important;
 }
+
+#au{
+    width: 20%;
+    background:none;
+}
+
+.entry-content .mejs-container .mejs-controls {
+    background: rgb(0, 0, 0) !important;
+}
+
+@media (max-width: 985px) {
+
+    #au{
+        width: 50%;
+    }
+
+}

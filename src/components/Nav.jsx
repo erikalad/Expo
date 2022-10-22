@@ -1,12 +1,18 @@
 import React from "react";
 import logo from './../assest/logoandar.png'
 import './Nav.css'
+import audio from './charlotte.mp3'
+
 
 function Nav(){
     return(
         <div className='nav navbar navbar-expand-lg bg-black sticky-top bg-black fixed-top' id="nav">
         <div className="container-fluid">
             <img src={logo} alt="logo"  className="navbar-brand logo"/>
+            <audio class="mejs__player" controls preload autoplay="true" id="au">
+                <source src={audio} type="audio/mp3" autoplay="true"/>
+                    Tu navegador no soporta audio HTML5.
+                </audio>
             
             <button className="navbar-toggler bg-light " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span className="navbar-toggler-icon"></span>
@@ -18,7 +24,10 @@ function Nav(){
             </div>
             <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
+              
+                
                 <li className="nav-item">
+                
                 <a href="/" aria-current="page" className='nav-link active' style={{color:"white"}} >Home</a>
                 </li>
                 <li>
