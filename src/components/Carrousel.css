@@ -6,6 +6,7 @@
 }
 
 
+
 #carousel .overlay {
     position: absolute;
     top:0;
@@ -23,6 +24,6 @@
 
 @media (max-width: 800px) {
     #carrousel-section .carousel-inner img{
-        height: 30vh;
+        height: 15vh;
     }
   }
