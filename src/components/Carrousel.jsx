@@ -13,7 +13,7 @@ export default function Carrousel() {
       <img src={img3} className="d-block w-100" alt="1" />
     </div>
      <div className="carousel-item" data-bs-interval="3000">
-      <img src={img2} className="d-block w-100" alt="4"/>
+      <img src={img2} className="d-block w-100" alt="4" id="imag-carrousel"/>
     </div>
     {/* <div className="carousel-item" data-bs-interval="3000">
       <img src={img2} className="d-block w-100" alt="2"/>
