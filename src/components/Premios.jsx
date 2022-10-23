@@ -2,7 +2,7 @@ import React from "react";
 
 import './Premios.css'
 import img1 from '../assest/04.jpeg'
-import img2 from '../assest/05.jpeg'
+import img2 from '../assest/05.png'
 import img3 from '../assest/06.jpeg'
 
 export default function Premios(){
