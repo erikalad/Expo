@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sponsors.css'
-import img1 from '../assest/Hostinger-logo.jpeg'
+import img1 from '../assest/Hostinger-logo.png'
 import img2 from '../assest/sponsor.JPG'
 import img3 from '../assest/fresh.jpeg'
 import img4 from '../assest/idi.png'
@@ -10,6 +10,8 @@ import img7 from '../assest/surf.jpg'
 import img8 from '../assest/lapaloma.jpg'
 import img9 from '../assest/piaggine.jpeg'
 import img10 from '../assest/dreamers.jpeg'
+import img11 from '../assest/puntomed.jpeg'
+
 
 export default function Sponsors(){
     return(
@@ -18,16 +20,19 @@ export default function Sponsors(){
 
             <hr />
             <div className='sponsor'>
-            <img src={img1} alt=".." className='logos'/>
+            <img src={img1} alt=".." className='logo-logo'/>
             <img src={img5} alt=".." className='logos'/>
             <img src={img2} alt=".." className='logos'/>
             <img src={img4} alt=".." className='logos'/>
             <img src={img3} alt=".." className='logos'/>
-            <img src={img6} alt=".." className='logos'/>
+            <img src={img6} alt=".." className='logo-logo'/>
             <img src={img7} alt=".." className='logos'/>
+            <img src={img11} alt=".." className='logos'/>
             <img src={img8} alt=".." className='logos'/>
-            <img src={img9} alt=".." className='logos'/>
             <img src={img10} alt=".." className='logos'/>
+            <img src={img9} alt=".." className='logos'/>
+            
+           
             </div>
         </div>
        
