@@ -16,6 +16,7 @@ import img13 from '../assest/maquilladora.jpeg'
 import img14 from '../assest/tango.jpeg'
 import img15 from '../assest/churros.jpg'
 import img16 from '../assest/adn.jpg'
+import img17 from '../assest/sushi.jpeg'
 
 export default function Sponsors(){
     return(
@@ -40,6 +41,7 @@ export default function Sponsors(){
             <img src={img14} alt=".." className='logos'/>
             <img src={img15} alt=".." className='logos'/>
             <img src={img16} alt=".." className='logos'/>
+            <img src={img17} alt=".." className='logo-logo'/>
             </div>
         </div>
        
