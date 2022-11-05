@@ -7,7 +7,6 @@ import Carrousel from './components/Carrousel';
 import Premios from './components/Premios';
 
 import Presentación from './components/Presentación';
-import CuentaRegresiva from './components/CuentaRegresiva';
 import SobreNosotros from "./components/SobreNosotros";
 import InfoPremios from "./components/InfoPremios";
 import EntradasSorteo from "./components/EntradasSorteo";
@@ -29,7 +28,7 @@ function App() {
       <SobreNosotros />
       
       <Carrousel />
-      <CuentaRegresiva />
+  
       <Presentación />
       <EntradasSorteo />
       <Premios />
